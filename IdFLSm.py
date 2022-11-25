@@ -160,6 +160,6 @@ xModel = np.linspace(min(expVd), max(expVd), lenExpData)
 yModel = func(xModel, *fittedParameters)
 
 # Graph of fit and exp data
-plt.plot(expVd, expId/1e-6, 'D', label='Exp')             # Fit data
-plt.plot(xModel, yModel/1e-6, linewidth='3', label='Fit') # Exp data
+plt.plot(expVd, expId/1e-6, 'D', label='Exp')             # Exp data
+plt.plot(xModel, yModel/1e-6, linewidth='3', label='Fit') # Fit data
 plt.show()
