@@ -1,30 +1,30 @@
 ## IdFLSm: Id current Fit of Luginieski-Seidel model
 #                   Main code
 #
-#  This code uses the code IDcLSm, with contains the drain current equations from
+#  This code uses the code IDcLSm, with the drain current equations from
 #      Luginieski-Seidel model.
 #
-#  IdcLSm uses two auxiliary codes: constants, with contains some importante physical constants
-#      and the unity_converter, with is responsible to convert input values to the SI.
+#  IdcLSm uses two auxiliary codes: constants, with some important physical constants
+#      and the unity_converter, with is responsible for converting the input values to SI.
 #
-#  Input Experimental data: the code is setted to read a csv file with ; as column separator;
+#  Input Experimental data: the code is set to read a csv file with ; as column separator;
 #         By default, the code considers a data file without headers, and only two columns: Vds and Ids.
-#         If the data file have headers, the number of header lines must be informed in the following code line:
+#         If the data file have headers, the number of header rows shoud be informed in the following code line:
 #         data = pd.read_csv(fileName, sep=';', header=0, names=['Vd','Id'])
 #
-#         If the data file have more than 2 columns, the array names must be fixed.
-#         it is recommended the user to read the Pandas.read_csv docummentation:
+#         If the data file have more than 2 columns, the array names must be corrected.
+#         The user is recommended to read the Pandas.read_csv docummentation:
 #         https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html
 #
-#  Guess: user must enter the guesses of three parameters in the following order:
+#  Guess: user shoud enter the guesses of three parameters in the following order:
 #       >> Dc
 #       >> alfa
 #       >> gamma
 #
-#  Bounds: if user want to use a bound the min and max values must be informed as:
+#  Bounds: if user want to use a bound, the min and max values shoud be entered as:
 #       >> min max
-#          with a space between min and max values. The order is tha same as for the guesses;
-#          if user dont want to set a bound, it is just necessary to type:
+#          with a space between min and max values. The order is the same as for the guesses;
+#          if user does not want to set a bound, it is only necessary to type:
 #       >> inf
 #
 #  The authors acknowledge for the citation:
@@ -33,7 +33,7 @@
 #
 #  code created by: Msc. Marcos Luginieski
 #          contact: mluginieski@ifsc.usp.com
-#             date: 05/10/2022
+#             date: 25/11/2022
 
 import os
 import numpy as np
