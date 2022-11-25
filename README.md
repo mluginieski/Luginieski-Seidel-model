@@ -1,0 +1,1 @@
+# Luginieski-Seidel-model
