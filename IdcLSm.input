@@ -1,0 +1,9 @@
+kappa  	 4.0 	 .
+T  	 300.0 	 K
+Ci  	 1e-6 	 F/cm2
+D  	 30e-9 	 m
+W  	 15e-3 	 m
+L  	 2e-6 	 m
+Vg  	 1.2 	 V
+Vt  	 -0.4 	 V
+mi_ps	 0.2 	 cm2/Vs
