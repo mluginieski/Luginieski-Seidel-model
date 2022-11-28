@@ -3,7 +3,7 @@
 # About and Contact
 The codes presented here are based on following studies:<br />
 (1) [Effective thickness dependence on charge carrier transport in electrolyte-gated organic field-effect transistors](http://repositorio.utfpr.edu.br/jspui/handle/1/27497)<br />
-(2) [General model for charge carriers transport in electrolyte-gated transistors](http://repositorio.utfpr.edu.br/jspui/handle/1/27497)<br />
+(2) [General model for charge carriers transport in electrolyte-gated transistors](https://arxiv.org/abs/2211.09266)<br />
 <br />
 The main code is the IdFLSm.py (Id current Fit of Luginieski-Seidel model) and is responsible for fitting the experimental data with Luginieski-Seidel model. It takes use of: IdcLSm.py (Id current of Luginieski-Seidel model), which is the code where the drain current is calculated; contants.py, which contains some important physical constants; unit_converter.py, which is responsible to convert input values into SI units.
 CONTACT: mluginieski@ifsc.usp.br<br />
