@@ -28,8 +28,8 @@
 #       >> inf
 #
 #  The authors acknowledge for the citation:
-#  Phys. Rev. B, XXX, XXXXXX
-#  DOI:
+#  Adv. Theory Simul. 2023, 2200852
+#  DOI: 10.1002/adts.202200852 
 #
 #  code created by: Msc. Marcos Luginieski
 #          contact: mluginieski@ifsc.usp.com
